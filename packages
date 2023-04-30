@@ -18,4 +18,8 @@ sxhkd
 bspwm
 ttf-firacode-nerd
 neofetch
+alacritty
+grub
+efibootmgr
+dosfstools
 
