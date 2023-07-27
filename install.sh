@@ -29,9 +29,10 @@ cp config.ini /home/clyxos/.config/polybar/
 cp launch.sh /home/clyxos/.config/polybar/
 
 # Add to the sudoers file
-echo "Uncomment the wheel line"
+echo "Uncomment the wheel line, then exit and press enter to continue"
 wait 3
 EDITOR=nvim visudo
+read -p "Press enter to continue" yeah
 wait 1
 passwd
 wait 1
